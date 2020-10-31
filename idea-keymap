@@ -1,0 +1,50 @@
+
+问题现象:功能全部爆红，总是提示“setup JDK”，设置JDK后无效。但程序能够正常编译和运行。
+File -> Invalidate Caches/Restart -> Invalidate and Restart 
+
+
+* 寻找class文件
+    * command + o 
+* 查找文件
+    * command + shift + o 
+* 展示class中的方法列表
+    * command+f12 
+* 查看class, interface的继承体系
+    * 选择class或者interface, 然后执行control + h
+* 直接跳转到方法的实现类
+    * option + command + 鼠标左键
+* 查找方法被调用的地方
+    * control + option + h
+* 回到上一个视图
+    * option + command + <
+* shift+command+f
+    * 在project, module, 路径中检索指定的字符
+* shift+command+r
+    * 查找和替换
+* 代码框左边栏 -> annotate
+    * 结合git查看某行代码的owner
+* shift+option+up/down
+    * 向上/下移动一行代码
+* command + delete 
+    * 删除一行代码
+* command + n
+    * 生成代码(get/set/constructor)
+* command + d
+    * 复制一行代码
+* 注解首字母大写才会提示
+* 格式化代码
+    * option + command + l
+* shift + command + u
+    * 大小写切换
+* option + enter
+    * 引入class
+* control + option + o
+    * 去除不需要的import
+* command + n
+    * generate(set/get/override)
+* 跳到文件开头
+    * fn + command + <
+* 跳到文件尾部
+    * fn + command + >
+* 当前文件内容批量替换
+    * ctrl + r
