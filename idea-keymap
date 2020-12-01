@@ -48,3 +48,7 @@ File -> Invalidate Caches/Restart -> Invalidate and Restart 
     * fn + command + >
 * 当前文件内容批量替换
     * ctrl + r
+
+
+* 二方包如果未下载源码包，那么调用依赖以及字符检索都是覆盖不到这些二方包的, 需要先下载源码包
+* 其次字符检索的时候最好把正则匹配去掉，精确字符匹配就好
